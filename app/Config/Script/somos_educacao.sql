@@ -13,19 +13,14 @@ CREATE DATABASE IF NOT EXISTS `somos_educacao` /*!40100 DEFAULT CHARACTER SET ut
 USE `somos_educacao`;
 
 
--- Dumping structure for table somos_educacao.assessments
-CREATE TABLE IF NOT EXISTS `assessments` (
+-- Dumping structure for table somos_educacao.instituitions
+CREATE TABLE IF NOT EXISTS `instituitions` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `note` int(11) NOT NULL,
-  `period` varchar(7) NOT NULL,
-  `student_id` int(11) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `FK_assessments_students` (`student_id`),
-  CONSTRAINT `FK_assessments_students` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`)
+  `name` varchar(100) NOT NULL,
+  `fantasyname` varchar(100) NOT NULL,
+  `note` float DEFAULT '0',
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- Data exporting was unselected.
-
 
 -- Dumping structure for table somos_educacao.courses
 CREATE TABLE IF NOT EXISTS `courses` (
@@ -38,21 +33,6 @@ CREATE TABLE IF NOT EXISTS `courses` (
   CONSTRAINT `FK_courses_instituitions` FOREIGN KEY (`instituition_id`) REFERENCES `instituitions` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Data exporting was unselected.
-
-
--- Dumping structure for table somos_educacao.instituitions
-CREATE TABLE IF NOT EXISTS `instituitions` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) NOT NULL,
-  `fantasyname` varchar(100) NOT NULL,
-  `note` float DEFAULT '0',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- Data exporting was unselected.
-
-
 -- Dumping structure for table somos_educacao.students
 CREATE TABLE IF NOT EXISTS `students` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -64,6 +44,14 @@ CREATE TABLE IF NOT EXISTS `students` (
   CONSTRAINT `FK_students_courses` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Data exporting was unselected.
-/*!40014 SET FOREIGN_KEY_CHECKS=1 */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+-- Dumping structure for table somos_educacao.assessments
+CREATE TABLE IF NOT EXISTS `assessments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `note` int(11) NOT NULL,
+  `period` varchar(7) NOT NULL,
+  `student_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_assessments_students` (`student_id`),
+  CONSTRAINT `FK_assessments_students` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
