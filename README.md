@@ -7,6 +7,7 @@ Go to https://github.com/weto/sebe-adm and download the latest version.
 
 Dependencies:
 PHP minimum version 5.4.16
+CakePHP
 Mysql
 
 Configuring database connection:
