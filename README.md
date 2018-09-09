@@ -18,3 +18,6 @@ Go into the $PATH\app\Config\database.php file and put the data from the databas
 
 Accessing the project:
 Enter http://localhost/sebe-adm/admin/instituitions.
+
+Accessing the project:
+Enter https://sebe-adm.herokuapp.com/admin/instituitions
