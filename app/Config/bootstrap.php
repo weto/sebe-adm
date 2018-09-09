@@ -122,4 +122,6 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
-
+CakePlugin::loadAll();
+// Tradução das mensagens do core
+require APP . 'Plugin' . DS . 'cake_ptbr' . DS . 'Config' . DS . 'bootstrap.php';
