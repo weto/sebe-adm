@@ -1,0 +1,34 @@
+.clear {
+    clear:both;
+}
+body {
+    background:#003D4C;
+}
+#container {
+    margin: 100px auto 0;
+    width: 471px;
+}
+.form {
+    border:0!important;
+    width:415px!important;
+}
+fieldset,form div{
+    padding-bottom:0;
+    margin-bottom:0;
+}
+fieldset legend {
+    font-size:14px!important;
+}
+#content {
+    overflow:hidden;
+    min-height:197px;
+    background: #fff;
+}
+form div.submit {
+    margin-left: 10px;
+}
+.logo {
+    padding: 12px;
+    margin-bottom: 3px;
+    background:#fff;
+}

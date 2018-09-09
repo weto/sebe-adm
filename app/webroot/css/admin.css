@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.content_central {
+    width:      1024px;
+    border:     1px #3F6BBA solid;
+    margin:     0 auto;
+    background: #cacacb;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cabecalho {
+    height: 140px;
+    background-color:#3f6bba; 
+}
+.cabecalho_bottom {
+    height: 68px;
+    background-image: url('../img/cabecalho_footer.png');
+    overflow: hidden;
+    padding-left:15px;
+}
+.busca {
+    margin-left: 23px;
+    margin-top: 23px;
+}
+.conteudo_lintagem {
+    -webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;
+    background: #fff;
+    margin: 23px;
+    min-height: 300px;
+    clear: both;
+}
+.footer {
+    background-image: url("../img/footer.png");
+    clear: both;
+    height: 13px;
+    overflow: hidden;
+    padding: 35px;
+}
+.clear {
+    clear: both;
+}
+
+.search-query{
+    width: 880px!important;
+}
+.primeiro_dropdown-menu {
+    margin-left: 45px;
+    margin-top: -1px;
+}
+.dropdown-menu {
+    margin-top:-2px;
+}
+.nav {
+    margin-top: 12px;
+}
+
+/* ---- Navigation ---- */
+.navback 
+{	right:0;
+  left:0;
+  z-index:1;
+}
+#navigation 
+{	height: 33px;
+  font-size: 18px;
+  margin:20px auto;
+  width:960px;
+  overflow:hidden;
+  -moz-border-radius:6px;
+}
+
+#navigation ul {
+    float: left;
+    z-index: 100;
+    padding: 0;
+    list-style-type: none;
+    margin:0 0 0 10px;
+}
+* html #navigation ul{
+    margin:0 0 0 6px;
+}
+/*Top level list items*/
+#navigation ul li {
+    display: block;
+    float: left;
+    padding:4px 6px 4px 0 ;
+    margin-right:8px;
+}
+
+/*Top level menu link items style*/
+#navigation ul li a {
+    display:block;
+    padding:5px 7px;
+    text-decoration:none;
+}
+
+* html #navigation ul li a { /*IE6 hack to get sub menu links to behave correctly*/
+    display: inline-block;
+}
+
+#navigation ul li a:link, #navigation ul li a:visited {
+    color:#fff;
+}
+
+#navigation ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    color: #777777;
+    z-index: 100;
+}
+
+#navigation ul li a:hover {
+
+    color:#1aa5d4;
+    text-decoration:none; /*background of menu items during onmouseover (hover state)*/
+    z-index: 100;
+}
+.acaovertical {
+    height: 25px;
+}
+.on {
+    color: #FFFFFF !important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.on a {
+    color:#fff!important;
+    font-size:13px!important;
+    text-decoration:none;
+}
+.on a:hover {
+    text-decoration:underline;
+}
+.locar{
+    cursor: pointer;
+} 
+.filmesLocar{
+    border:1px #555555 solid;
+    float:left;
+    color: #3F6BBA;
+}
+.coluna{
+    float:left;
+    width: 160px;
+}
+.titleloc{
+    font: bold;
+}
+.titleloc h5{
+    border-bottom: 1px #555555 solid;
+    padding:5px!important; 
+}
+.filmesLocar {
+    padding: 0px!important;
+    margin-right: 10px;
+}
+form .filmesLocar {
+    clear: none;
+}
+.filmesLocar .titleloc {
+    padding: 0!important;
+    margin-bottom: 0!important;
+}
+.center {
+    text-align: center!important;
+}
+.paddingBotton0 {
+    padding: 0!important;
+}
+.idCollumFilm{
+    width: 30px;
+}
+.collumValor{
+    width: 70px;
+}
+.collumData{
+    width: 99px;
+}
+.collumNome{
+    width: 317px;
+}
+.collumTotal{
+    float: right;
+    color: #3F6BBA;
+    font: bold;
+    width: 77px;
+}
+.viewCapa {
+    float: right;
+    margin-right: 42px;
+}
+.logo {
+    height: 116px;
+}
+.logo img {
+    margin: 59px;
+    width: 220px;
+}

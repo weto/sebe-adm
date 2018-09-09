@@ -1,0 +1,66 @@
+dt, dd {
+    line-height: 29px!important;
+    color: #333333;
+}
+.index .actions , .related .actions {
+    text-align: center!important;
+}
+.left {
+    float: left!important;
+    clear: none!important;
+}
+.rigth {
+    float: right!important;
+    clear: none!important;
+}
+label {
+    color: #444444!important;
+}
+.margin-left {
+    margin-left: 60px!important;
+}
+.listAtor {
+    height: 150px!important;
+}
+select[size] {
+    height: 31px!important;
+}
+.acaovertical a {
+    width: 80px!important;
+    
+}
+.itens {
+    float: right;
+    margin-right: 16px;
+    color: red;
+}
+.status {
+    width: 179px; 
+}
+.ator_list {
+    min-height: 60px!important;
+    max-height: 120px!important;
+}
+.nome_filme {
+    width: 100px;
+    word-wrap: break-word;
+}
+.border0 {
+    border: 0px!important;
+}
+.width100{
+    width: 96%!important;
+}
+.width327{
+    width: 327px!important;
+}
+.desabilitado {
+    background: -moz-linear-gradient(center top , #DDDDDD, #DCDCDC) repeat scroll 0 0 #DDDDDD!important;
+    color: #C7A7A7!important;
+}
+
+legend, .titulo, .itens {
+    color: #3f6bba!important;
+    font-size: 17px!important;
+    font-weight: bold;
+}
