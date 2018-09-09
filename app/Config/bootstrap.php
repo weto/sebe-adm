@@ -122,21 +122,4 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
-CakePlugin::loadAll();
-// Tradução das mensagens do core
-require APP . 'Plugin' . DS . 'cake_ptbr' . DS . 'Config' . DS . 'bootstrap.php';
 
-if(@!define('MBRREPOSITORIOPRODUCAO')){
-	define('MBRREPOSITORIOPRODUCAO', "C:/wamp/www/Projeto_Manga_Producao/repositorio");
-}
-
-if(@!define('MBRREPOSITORIOLOCAL')){
-	define('MBRREPOSITORIOLOCAL', "C:/wamp/www/Projeto_Manga_Producao/repositorio");
-}
-
-if(@!define('MBRPRODUCAO')){
-	define('MBRPRODUCAO', true);
-}
-
-//define('APP_BASE_DEFAULT', "http://capitador.adm.mangabr.com.br/admin");
-define('APP_BASE_DEFAULT', "http://localhost/versao/admin");
