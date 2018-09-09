@@ -1,0 +1,665 @@
+2017-04-18 00:44:21 Error: [MissingViewException] View file "C:\wamp\www\mangabr_servico\app\View\Servicos\ultimos_capitulos.ctp" is missing.
+#0 C:\wamp\www\mangabr_servico\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mangabr_servico\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr_servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-04-28 21:48:45 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\mangabr_servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-15 23:24:19 Error: [MissingViewException] View file "C:\wamp\www\mangabr_servico\app\View\Servicos\todos_mangas.ctp" is missing.
+#0 C:\wamp\www\mangabr_servico\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mangabr_servico\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr_servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-15 23:25:11 Error: [MissingViewException] View file "C:\wamp\www\mangabr_servico\app\View\Servicos\todos_mangas.ctp" is missing.
+#0 C:\wamp\www\mangabr_servico\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mangabr_servico\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr_servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-15 23:25:49 Error: [MissingViewException] View file "C:\wamp\www\mangabr_servico\app\View\Servicos\todos_mangas.ctp" is missing.
+#0 C:\wamp\www\mangabr_servico\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mangabr_servico\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr_servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-15 23:27:01 Error: [MissingViewException] View file "C:\wamp\www\mangabr_servico\app\View\Servicos\todos_mangas.ctp" is missing.
+#0 C:\wamp\www\mangabr_servico\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mangabr_servico\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\mangabr_servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr_servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-19 23:37:37 Error: [MissingActionException] Action UsuariosController::index() could not be found.
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-05-20 12:40:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Manga.capa
+                                            ,(
+                    ' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(74): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->destaques()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:04:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:05:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:05:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mangas Manga 
+                                            inner join capit' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(160): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCapitulos()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:06:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mangas Manga 
+                                                 inner join ' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(170): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCapitulos()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:07:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mangas Manga 
+                                                 inner join ' at line 2
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(169): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCapitulos()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:08:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from mangas Manga 
+                                                 inner join ' at line 2
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(169): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCapitulos()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:11:10 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:18:12 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:19:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:19:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:19:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-20 13:19:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+                                                select cap.edicao from capitu' at line 3
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(125): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->ultimosCadastrados()
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-21 13:17:28 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras('hiro-mashima')
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-21 15:02:23 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras('one-piece')
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-21 15:02:23 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras('one-piece')
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-21 15:02:47 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras('one-piece')
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-23 22:39:58 Error: [MissingActionException] Action ServicosController::fairy-tail() could not be found.
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-05-23 23:12:29 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->descricao()
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-23 23:13:22 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->descricao()
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-23 23:30:24 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras()
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-23 23:30:27 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras()
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-23 23:34:51 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras()
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-23 23:37:40 Error: [NotFoundException] Invalid manga
+#0 [internal function]: ServicosController->outrasObras()
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-05-26 02:43:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manga.nome' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(430): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->todosCapitulosPorManga('fairy-tail')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-26 02:45:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manga.nome' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('Select Manga.no...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('Select Manga.no...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('Select Manga.no...')
+#4 [internal function]: DboSource->query('Select Manga.no...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(430): Model->query('Select Manga.no...')
+#7 [internal function]: ServicosController->todosCapitulosPorManga('fairy-tail')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-27 14:40:12 Error: [PDOException] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\Database\Mysql.php(308): DboSource->_execute('SHOW FULL COLUM...')
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(1279): Mysql->describe(Object(Manga))
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(2183): Model->schema()
+#4 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(1028): DboSource->fields(Object(Manga))
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(2653): DboSource->read(Object(Manga), Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(416): Model->find('first', Array)
+#7 [internal function]: ServicosController->todosCapitulosPorManga('fairy-tail')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-27 14:40:12 Error: [PDOException] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\Database\Mysql.php(282): DboSource->_execute('SELECT CHARACTE...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\Database\Mysql.php(329): Mysql->getCharsetName('utf8_general_ci')
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(1279): Mysql->describe(Object(Manga))
+#4 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(2183): Model->schema()
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(1028): DboSource->fields(Object(Manga))
+#6 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(2653): DboSource->read(Object(Manga), Array)
+#7 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(373): Model->find('first', Array)
+#8 [internal function]: ServicosController->outrasObras('fairy-tail')
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-05-27 14:40:12 Error: [PDOException] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\Database\Mysql.php(282): DboSource->_execute('SELECT CHARACTE...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\Database\Mysql.php(329): Mysql->getCharsetName('utf8_general_ci')
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(1279): Mysql->describe(Object(Manga))
+#4 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(2183): Model->schema()
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(1028): DboSource->fields(Object(Manga))
+#6 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(2653): DboSource->read(Object(Manga), Array)
+#7 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(332): Model->find('first', Array)
+#8 [internal function]: ServicosController->descricao('fairy-tail')
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-05-28 21:24:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'noticia.nomeNoticia' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(327): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('7')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:24:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'noticia.nomeNoticia' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(327): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('7')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:24:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'noticia.nomeNoticia' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(327): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('7')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:25:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'noticia.nomeNoticia' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(327): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('7')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:26:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'noticia.nomeNoticia' in 'field list'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(327): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('7')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:39:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'LOWER'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(330): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('fairy-tail')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:39:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'LOWER'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(330): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('fairy-tail')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-05-28 21:39:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'LOWER'
+#0 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select capa.*, ...', Array)
+#2 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('select capa.*, ...', Array, Array)
+#3 C:\wamp\www\mangabr-servico\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('select capa.*, ...')
+#4 [internal function]: DboSource->query('select capa.*, ...')
+#5 C:\wamp\www\mangabr-servico\lib\Cake\Model\Model.php(3010): call_user_func_array(Array, Array)
+#6 C:\wamp\www\mangabr-servico\app\Controller\ServicosController.php(330): Model->query('select capa.*, ...')
+#7 [internal function]: ServicosController->ultimasNoticiasPorManga('fairy-tail')
+#8 C:\wamp\www\mangabr-servico\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ServicosController), Array)
+#9 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\mangabr-servico\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ServicosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mangabr-servico\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-09-07 06:00:09 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:10 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:11 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:11 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:11 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:12 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:12 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:00:12 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:01:13 Error: [MissingControllerException] Controller class InstituitionsController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:08:27 Error: [MissingControllerException] Controller class CousesController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:08:53 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 06:20:14 Error: [MissingControllerException] Controller class InstituitionController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 17:38:12 Error: [MissingControllerException] Controller class CursosController could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 17:38:19 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-07 17:56:31 Error: [MissingViewException] View file "C:\wamp57\wamp\www\somos_educacao_back-end\app\View\Assessments\admin_index.ctp" is missing.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AssessmentsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-09-08 21:36:20 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:38:54 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:38:56 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:39:48 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:39:49 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:39:49 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:39:50 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:56:23 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:56:24 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:56:26 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:07 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:08 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:08 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:09 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:09 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:09 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:57:09 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:59:30 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 21:59:31 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:00:30 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:00:31 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:02:20 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:02:33 Error: [MissingViewException] View file "C:\wamp57\wamp\www\somos_educacao_back-end\app\View\Pages\teste.ctp" is missing.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\View\View.php(460): View->_getViewFileName('teste')
+#1 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Controller\Controller.php(959): View->render('teste', NULL)
+#2 C:\wamp57\wamp\www\somos_educacao_back-end\app\Controller\PagesController.php(73): Controller->render('teste')
+#3 [internal function]: PagesController->display('teste')
+#4 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp57\wamp\www\somos_educacao_back-end\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-09-08 22:06:08 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:07 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:09 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:10 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:35 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:36 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:37 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:37 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:38 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:38 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:38 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:39 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:39 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-09-08 22:10:51 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp57\wamp\www\somos_educacao_back-end\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
