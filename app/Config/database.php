@@ -61,10 +61,10 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => true,
-		'host' => 'mysql.mangabr.com.br',
-		'login' => 'naruto_san',
-		'password' => 'naruto_san1',
-		'database' => 'napolliengenharia2',
+		'host' => 'HOST',
+		'login' => 'USER',
+		'password' => 'PASSWORD',
+		'database' => 'DATABASE',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
