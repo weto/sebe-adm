@@ -94,12 +94,38 @@ class AssessmentsController extends AppController {
 			throw new NotFoundException(__('assessment inválido'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Assessment->save($this->request->data)) {
+			$options = array('conditions'=>array('Student.id' => $this->request->data['Assessment']['student_id']));
+        		$estudante = $this->Assessment->Student->find('first', $options);
+
+			$options2 = array('conditions'=>array('Student.course_id' => $estudante['Course']['id']));
+        		$todosEstudantes = $this->Assessment->Student->find('all', $options2);
+		        
+			$options3 = array('conditions'=>array('Assessment.student_id' => $this->request->data['Assessment']['student_id']));
+        		$todasAvaliacoes = $this->Assessment->find('all',$options3);
+        		
+			$mediaEstudante = $this->Media->calculaMediaEstudante($todasAvaliacoes);
+        		$student['Student']['id'] = $todosEstudantes[0]['Student']['id'];
+        		$student['Student']['average'] = $mediaEstudante;
+        		$this->Student->save($student);
+        		
+			$mediaCurso = $this->Media->calculaMediaCurso($todosEstudantes, $todasAvaliacoes);
+        		$course['Course']['id'] = $todosEstudantes[0]['Course']['id'];
+        		$course['Course']['note'] = $mediaCurso;
+        		$this->Course->save($course);
+		        
+			$options4 = array('conditions'=>array('Course.instituition_id' => $estudante['Course']['instituition_id']));
+        		$todasCursos = $this->Course->find('all', $options4);
+        		
+			$mediaInstituicao = $this->Media->calculaMediainstituicao($todasCursos, $mediaCurso);
+        		$instituicao['Instituition']['id'] = $estudante['Course']['instituition_id'];
+        		$instituicao['Instituition']['note'] = $mediaInstituicao;
+        		
+			$this->Instituition->save($instituicao);
 				$this->Session->setFlash(__('O assessment foi salvo com sucesso.'));
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('O assessment não pôde ser salvo. Por favor, tente novamente.'));
-			}
+			}		
 		} else {
 			$this->request->data = $this->Assessment->read(null, $id);
 		}
